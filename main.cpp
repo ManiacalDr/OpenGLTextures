@@ -129,7 +129,7 @@ int main() {
 
 	glfwSetErrorCallback(glfwErrorCB);
 
-	window = glfwCreateWindow(1024, 768, "Lighting", NULL, NULL);
+	window = glfwCreateWindow(1024, 768, "Textures", NULL, NULL);
 	if (window == NULL) {
 		fprintf(stderr, "Failed to open GLFW window.\n");
 		glfwTerminate();
